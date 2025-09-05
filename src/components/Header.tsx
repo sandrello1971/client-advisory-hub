@@ -11,9 +11,11 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="text-2xl font-heading font-bold text-primary">
-              WealthGuard<span className="text-accent">.</span>
-            </div>
+            <img 
+              src="/lovable-uploads/f57f2270-40c3-4b6b-bb9c-84162e77626c.png" 
+              alt="Logo" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

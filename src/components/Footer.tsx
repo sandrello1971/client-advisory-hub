@@ -12,9 +12,11 @@ const Footer = () => {
           
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <div className="text-2xl font-heading font-bold mb-4">
-              WealthGuard<span className="text-accent">.</span>
-            </div>
+            <img 
+              src="/lovable-uploads/f57f2270-40c3-4b6b-bb9c-84162e77626c.png" 
+              alt="Logo" 
+              className="h-12 w-auto mb-4"
+            />
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
               Consulenza patrimoniale fee-only per dirigenti, imprenditori e famiglie HNWI. 
               Indipendenza, trasparenza, discrezione.
@@ -89,9 +91,8 @@ const Footer = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             
-            {/* Copyright */}
             <div className="text-sm text-primary-foreground/60">
-              © {currentYear} WealthGuard. Tutti i diritti riservati.
+              © {currentYear} Tutti i diritti riservati.
             </div>
 
             {/* Compliance Links */}
