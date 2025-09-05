@@ -10,38 +10,38 @@
   :root {
     /* Brand Colors - Navy Theme */
     --background: 41 22% 97%; /* Avorio #F6F5F2 */
-    --foreground: 202 45% 12%; /* Navy #0B1B2B */
+    --foreground: 204 40% 34%; /* Blue-gray from logo */
 
     --card: 41 22% 97%;
-    --card-foreground: 202 45% 12%;
+    --card-foreground: 204 40% 34%;
 
     --popover: 41 22% 97%;
-    --popover-foreground: 202 45% 12%;
+    --popover-foreground: 204 40% 34%;
 
-    --primary: 202 45% 12%; /* Navy #0B1B2B */
+    --primary: 204 40% 34%; /* Blue-gray #335b78 from logo */
     --primary-foreground: 41 22% 97%;
 
-    --secondary: 200 15% 41%; /* Grigio #5A6A74 */
+    --secondary: 200 15% 41%; /* Professional grey */
     --secondary-foreground: 41 22% 97%;
 
     --muted: 41 15% 92%;
     --muted-foreground: 200 15% 41%;
 
-    --accent: 24 100% 60%; /* Professional orange from logo */
-    --accent-foreground: 202 45% 12%;
+    --accent: 22 85% 61%; /* Orange #f18445 from logo */
+    --accent-foreground: 255 255 255;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 41 22% 97%;
 
     --border: 200 20% 85%;
     --input: 200 20% 90%;
-    --ring: 24 100% 60%;
+    --ring: 22 85% 61%;
 
     --radius: 0.75rem;
 
     /* Premium Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(200 35% 18%));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(24 100% 70%));
+    --gradient-primary: linear-gradient(135deg, hsl(204 40% 34%), hsl(204 35% 28%));
+    --gradient-accent: linear-gradient(135deg, hsl(22 85% 61%), hsl(22 80% 55%));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(41 15% 95%));
 
     /* Elegant Shadows */
