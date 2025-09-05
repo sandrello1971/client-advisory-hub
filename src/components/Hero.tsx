@@ -83,7 +83,7 @@ const Hero = () => {
               <div className="absolute -bottom-4 -right-4 w-48 h-48 bg-primary-foreground/20 rounded-full blur-2xl"></div>
               
               {/* Main profile image */}
-              <div className="relative z-10 w-80 h-80 rounded-full overflow-hidden border-4 border-primary-foreground/30 shadow-elegant">
+              <div className="relative z-10 w-96 h-96 rounded-full overflow-hidden border-4 border-primary-foreground/30 shadow-elegant">
                 <img 
                   src="/lovable-uploads/f57f2270-40c3-4b6b-bb9c-84162e77626c.png" 
                   alt="Felice - Consulente Patrimoniale"
