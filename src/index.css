@@ -1,42 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Wealth Management Design System */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Brand Colors - Navy Theme */
+    --background: 41 22% 97%; /* Avorio #F6F5F2 */
+    --foreground: 202 45% 12%; /* Navy #0B1B2B */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 41 22% 97%;
+    --card-foreground: 202 45% 12%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 41 22% 97%;
+    --popover-foreground: 202 45% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 202 45% 12%; /* Navy #0B1B2B */
+    --primary-foreground: 41 22% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 200 15% 41%; /* Grigio #5A6A74 */
+    --secondary-foreground: 41 22% 97%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 41 15% 92%;
+    --muted-foreground: 200 15% 41%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 42 37% 58%; /* Oro #C8A96A */
+    --accent-foreground: 202 45% 12%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 41 22% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 200 20% 85%;
+    --input: 200 20% 90%;
+    --ring: 42 37% 58%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Premium Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(200 35% 18%));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(42 45% 65%));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(41 15% 95%));
+
+    /* Elegant Shadows */
+    --shadow-elegant: 0 20px 40px -10px hsl(var(--primary) / 0.15);
+    --shadow-soft: 0 4px 20px hsl(var(--primary) / 0.08);
+    --shadow-accent: 0 8px 25px hsl(var(--accent) / 0.25);
+
+    /* Smooth Transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +115,70 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  /* Hero Patterns */
+  .hero-gradient {
+    background: var(--gradient-primary);
+  }
+
+  .accent-gradient {
+    background: var(--gradient-accent);
+  }
+
+  .subtle-gradient {
+    background: var(--gradient-subtle);
+  }
+
+  /* Shadow Utilities */
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-accent {
+    box-shadow: var(--shadow-accent);
+  }
+
+  /* Animation Classes */
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+
+  /* Professional Typography */
+  .text-wealth {
+    @apply text-lg leading-relaxed text-muted-foreground;
+  }
+
+  .heading-wealth {
+    @apply font-heading font-bold text-foreground;
+  }
+
+  /* Premium Card Effects */
+  .card-wealth {
+    @apply bg-card border border-border rounded-lg p-6 shadow-soft transition-smooth hover:shadow-elegant;
+  }
+
+  .card-accent {
+    @apply bg-gradient-to-br from-accent/5 to-accent/10 border border-accent/20 rounded-lg p-6 shadow-soft;
+  }
+
+  /* Button Enhancements */
+  .btn-wealth {
+    @apply font-medium tracking-wide shadow-soft transition-smooth hover:shadow-elegant;
   }
 }
