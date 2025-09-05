@@ -27,7 +27,7 @@
     --muted: 41 15% 92%;
     --muted-foreground: 200 15% 41%;
 
-    --accent: 42 37% 58%; /* Oro #C8A96A */
+    --accent: 24 100% 60%; /* Professional orange from logo */
     --accent-foreground: 202 45% 12%;
 
     --destructive: 0 84% 60%;
@@ -35,13 +35,13 @@
 
     --border: 200 20% 85%;
     --input: 200 20% 90%;
-    --ring: 42 37% 58%;
+    --ring: 24 100% 60%;
 
     --radius: 0.75rem;
 
     /* Premium Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(200 35% 18%));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(42 45% 65%));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(24 100% 70%));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(41 15% 95%));
 
     /* Elegant Shadows */

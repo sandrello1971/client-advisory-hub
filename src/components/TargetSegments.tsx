@@ -7,8 +7,8 @@ const TargetSegments = () => {
       icon: <Briefcase className="h-8 w-8 text-accent" />,
       title: "Dirigenti & Professionisti",
       subtitle: "€300K - €1,5M di patrimonio",
-      pain: "RSU, stock option, portfolio frammentato?",
-      benefit: "Audit completo, consolidamento, ottimizzazione fiscale",
+      pain: "RSU, stock option, costi poco chiari?",
+      benefit: "Audit completo, consolidamento, reporting trasparente",
       href: "/dirigenti",
       color: "from-accent/10 to-accent/5"
     },
@@ -16,8 +16,8 @@ const TargetSegments = () => {
       icon: <TrendingUp className="h-8 w-8 text-accent" />,
       title: "Post-Exit",
       subtitle: "€1,5M - €5M da liquidità",
-      pain: "Pressure commerciale, market timing, complessità?",
-      benefit: "Playbook 90 giorni, filtro indipendente, roadmap fiscale",
+      pain: "Pressure commerciale, costi nascosti, complessità?",
+      benefit: "Playbook 90 giorni, filtro metodico, roadmap fiscale",
       href: "/post-exit",
       color: "from-primary/10 to-primary/5"
     },
@@ -40,8 +40,8 @@ const TargetSegments = () => {
             Soluzioni su misura per ogni patrimonio
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Tre approcci specializzati per affrontare le sfide specifiche di dirigenti, 
-            imprenditori e famiglie patrimoniali.
+            Tre approcci specializzati per dirigenti, imprenditori e famiglie patrimoniali. 
+            Chiarezza sui compensi, metodo trasparente.
           </p>
         </div>
 

@@ -3,9 +3,9 @@ import { CheckCircle, Calendar, Download, ArrowRight } from "lucide-react";
 
 const Hero = () => {
   const proofPoints = [
-    "Fee-only: nessun conflitto d'interesse",
-    "Architettura aperta e trasparente", 
-    "Processo documentato e verificabile",
+    "Trasparenza compensi: ex-ante ed ex-post",
+    "Architettura aperta e verificabile", 
+    "Processo documentato e policy conflitti",
     "Riservatezza garantita"
   ];
 
@@ -19,15 +19,15 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 mb-8">
-            <span className="text-sm font-medium">Consulenza patrimoniale indipendente</span>
+            <span className="text-sm font-medium">Consulenza patrimoniale trasparente</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold mb-6 leading-tight">
             Consulenza patrimoniale{" "}
-            <span className="text-accent font-bold">fee-only</span>
+            <span className="text-accent font-bold">con regole chiare</span>
             <br />
-            Nessun conflitto, solo i vostri obiettivi
+            Nessuna sorpresa
           </h1>
 
           {/* Subheading */}
@@ -61,7 +61,7 @@ const Hero = () => {
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 btn-wealth px-8 py-4"
             >
               <Download className="h-5 w-5 mr-2" />
-              Scarica la guida fee-only
+              Scarica la guida trasparenza compensi
             </Button>
           </div>
 

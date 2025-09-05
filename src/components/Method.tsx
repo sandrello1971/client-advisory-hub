@@ -8,7 +8,7 @@ const Method = () => {
       title: "Valutazione",
       description: "Audit completo della vostra situazione patrimoniale attuale",
       details: [
-        "Analisi costi nascosti e inefficienze",
+        "Analisi costi attuali e trasparenza future",
         "Mappatura rischi e coperture",
         "Identificazione opportunità di ottimizzazione"
       ]
@@ -45,8 +45,8 @@ const Method = () => {
             Il nostro metodo: semplice, trasparente, efficace
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Un processo strutturato che mette la chiarezza e i vostri obiettivi al centro, 
-            senza sorprese o costi nascosti.
+            Un processo strutturado che mette la chiarezza dei compensi e i vostri obiettivi al centro. 
+            Disclosure ex-ante ed ex-post, policy conflitti dichiarata.
           </p>
         </div>
 
@@ -95,15 +95,15 @@ const Method = () => {
               Pronti per iniziare?
             </h3>
             <p className="text-muted-foreground mb-6">
-              La prima valutazione è sempre gratuita. Nessun impegno, 
-              solo 30 minuti per capire come possiamo aiutarvi.
+              La prima valutazione include sempre la disclosure completa dei compensi. 
+              30 minuti per capire come lavoriamo con regole chiare.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors btn-wealth">
                 Prenota la tua valutazione gratuita
               </button>
               <button className="px-6 py-3 border border-border rounded-lg hover:bg-accent/5 transition-colors">
-                Scarica il nostro metodo (PDF)
+                Scarica Policy Trasparenza (PDF)
               </button>
             </div>
           </div>

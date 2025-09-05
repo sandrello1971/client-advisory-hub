@@ -95,8 +95,8 @@ const Resources = () => {
                 Cercare qualcosa di più specifico?
               </h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Il nostro blog contiene oltre 50 articoli su consulenza patrimoniale indipendente, 
-                ottimizzazione fiscale e gestione del wealth per professionisti e imprenditori.
+                Il nostro blog contiene oltre 50 articoli su trasparenza dei compensi, 
+                gestione patrimoniale e wealth management per professionisti e imprenditori.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
