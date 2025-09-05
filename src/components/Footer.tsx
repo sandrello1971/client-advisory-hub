@@ -13,8 +13,8 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <img 
-              src="/lovable-uploads/f57f2270-40c3-4b6b-bb9c-84162e77626c.png" 
-              alt="Logo" 
+              src="/lovable-uploads/2e907c99-d5a8-4581-9a3a-fb4421890d41.png" 
+              alt="Finanza & Futuro Logo" 
               className="h-12 w-auto mb-4"
             />
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
