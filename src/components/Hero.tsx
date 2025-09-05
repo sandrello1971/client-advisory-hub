@@ -91,10 +91,6 @@ const Hero = () => {
                 />
               </div>
               
-              {/* Floating credential badge */}
-              <div className="absolute -bottom-2 -right-2 bg-primary-foreground rounded-full px-4 py-2 shadow-accent border-2 border-accent/20">
-                <span className="text-sm font-semibold text-primary">Felice</span>
-              </div>
             </div>
           </div>
         </div>
