@@ -18,8 +18,7 @@ const Footer = () => {
               className="h-12 w-auto mb-4"
             />
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-              Consulenza patrimoniale fee-only per dirigenti, imprenditori e famiglie HNWI. 
-              Indipendenza, trasparenza, discrezione.
+              Consulenza patrimoniale con regole chiare. Nessuna sorpresa.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="hover:bg-primary-foreground/10">
