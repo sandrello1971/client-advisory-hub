@@ -11,15 +11,18 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img 
-              src="/lovable-uploads/2e907c99-d5a8-4581-9a3a-fb4421890d41.png" 
-              alt="Finanza & Futuro Logo" 
-              className="h-12 w-auto"
-            />
+            <a href="/">
+              <img 
+                src="/lovable-uploads/2e907c99-d5a8-4581-9a3a-fb4421890d41.png" 
+                alt="Finanza & Futuro Logo" 
+                className="h-12 w-auto cursor-pointer hover:opacity-80 transition-opacity"
+              />
+            </a>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
+            <a href="/" className="text-wealth hover:text-foreground transition-colors">Home</a>
             <div className="relative group">
               <span className="text-wealth cursor-pointer hover:text-foreground transition-colors">Per Chi</span>
               <div className="absolute top-full left-0 mt-2 w-64 bg-card border border-border rounded-lg shadow-elegant opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
@@ -69,6 +72,7 @@ const Header = () => {
         {isMenuOpen && (
           <div className="lg:hidden border-t border-border">
             <div className="px-2 pt-2 pb-3 space-y-1">
+              <a href="/" className="block px-3 py-2 text-base text-muted-foreground">Home</a>
               <div className="space-y-2">
                 <div className="text-sm font-medium text-foreground px-3 py-2">Per Chi</div>
                 <a href="/dirigenti" className="block px-6 py-2 text-sm text-muted-foreground">
