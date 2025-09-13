@@ -34,7 +34,6 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-bold mb-4">Servizi</h4>
             <ul className="space-y-3 text-primary-foreground/80">
-              <li><a href="/consulenza-fee-only" className="hover:text-accent transition-colors">Consulenza Fee-Only</a></li>
               <li><a href="/advisory-post-exit" className="hover:text-accent transition-colors">Advisory Post-Exit</a></li>
               <li><a href="/wealth-management" className="hover:text-accent transition-colors">Wealth Management Discreto</a></li>
               <li><a href="/family-governance" className="hover:text-accent transition-colors">Family Governance</a></li>
