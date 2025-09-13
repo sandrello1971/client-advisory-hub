@@ -219,7 +219,7 @@ const Servizi = () => {
                 Nessun costo nascosto, nessuna sorpresa.
               </p>
               
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                 <Card className="card-accent">
                   <CardContent className="p-6 text-center">
                     <h3 className="text-lg font-heading font-bold text-foreground mb-2">Fee Management</h3>
@@ -232,17 +232,7 @@ const Servizi = () => {
                     <p className="text-muted-foreground text-sm">Tutti i costi comunicati ex-ante per iscritto</p>
                   </CardContent>
                 </Card>
-                <Card className="card-accent">
-                  <CardContent className="p-6 text-center">
-                    <h3 className="text-lg font-heading font-bold text-foreground mb-2">Performance Fee</h3>
-                    <p className="text-muted-foreground text-sm">Commissioni di performance solo su risultati reali</p>
-                  </CardContent>
-                </Card>
               </div>
-              
-              <Button variant="outline" size="lg" className="btn-wealth px-8 py-4">
-                Scarica il nostro documento trasparenza compensi
-              </Button>
             </div>
           </div>
         </section>
