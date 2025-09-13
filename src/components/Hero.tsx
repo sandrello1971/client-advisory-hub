@@ -3,7 +3,7 @@ import { CheckCircle, Calendar, Download, ArrowRight } from "lucide-react";
 
 const Hero = () => {
   const proofPoints = [
-    "Trasparenza compensi: ex-ante ed ex-post",
+    "visione WorldWide",
     "Architettura aperta e verificabile", 
     "Processo documentato e policy conflitti",
     "Riservatezza garantita"
@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="text-center lg:text-left">
             {/* Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 mb-8">
-              <span className="text-sm font-medium">Consulenza patrimoniale trasparente</span>
+              <span className="text-sm font-medium">Consulenza Patrimoniale Evoluta</span>
             </div>
 
             {/* Main Headline */}
@@ -34,7 +34,7 @@ const Hero = () => {
 
             {/* Subheading */}
             <p className="text-xl lg:text-2xl mb-8 text-primary-foreground/80 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Advisory 100% umano per dirigenti, imprenditori post-exit e famiglie HNWI. 
+              Advisory 100% umano per dirigenti, imprenditori post-exit e famiglie HNWI e aziende. 
               Trasparenza totale, competenza verificabile.
             </p>
 
@@ -56,14 +56,6 @@ const Hero = () => {
               >
                 <Calendar className="h-5 w-5 mr-2" />
                 Prenota valutazione gratuita (30 min)
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 btn-wealth px-8 py-4"
-              >
-                <Download className="h-5 w-5 mr-2" />
-                Scarica la guida trasparenza compensi
               </Button>
             </div>
 

@@ -31,7 +31,7 @@ const Method = () => {
       description: "Reporting periodico e adeguamenti pro-attivi",
       details: [
         "Dashboard KPI one-page",
-        "Review trimestrale performance",
+        "Review periodico delle performance",
         "Aggiornamenti normativi e opportunità"
       ]
     }
@@ -45,8 +45,7 @@ const Method = () => {
             Il nostro metodo: semplice, trasparente, efficace
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Un processo strutturado che mette la chiarezza dei compensi e i vostri obiettivi al centro. 
-            Disclosure ex-ante ed ex-post, policy conflitti dichiarata.
+            Un processo strutturado che mette la chiarezza i vostri obiettivi al centro con un focus chiaro e condiviso.
           </p>
         </div>
 
@@ -95,15 +94,12 @@ const Method = () => {
               Pronti per iniziare?
             </h3>
             <p className="text-muted-foreground mb-6">
-              La prima valutazione include sempre la disclosure completa dei compensi. 
+              La prima valutazione include sempre una mappa del profilo del rischio e degli obiettivi. 
               30 minuti per capire come lavoriamo con regole chiare.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors btn-wealth">
                 Prenota la tua valutazione gratuita
-              </button>
-              <button className="px-6 py-3 border border-border rounded-lg hover:bg-accent/5 transition-colors">
-                Scarica Policy Trasparenza (PDF)
               </button>
             </div>
           </div>
