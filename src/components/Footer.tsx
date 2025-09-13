@@ -61,7 +61,7 @@ const Footer = () => {
               <li><a href="/chi-siamo" className="hover:text-accent transition-colors">Chi Siamo</a></li>
             </ul>
 
-            {/* Quick Contact */}
+            {/* Contact Information */}
             <div className="space-y-3">
               <Button 
                 variant="hero" 
@@ -71,13 +71,28 @@ const Footer = () => {
                 <Calendar className="h-4 w-4 mr-2" />
                 Prenota Call
               </Button>
-              <div className="flex items-center text-sm text-primary-foreground/80">
-                <Phone className="h-4 w-4 mr-2" />
-                <span>+39 02 1234 5678</span>
-              </div>
-              <div className="flex items-center text-sm text-primary-foreground/80">
-                <Mail className="h-4 w-4 mr-2" />
-                <span>info@wealthguard.it</span>
+              
+              <div className="space-y-2 text-sm text-primary-foreground/80">
+                <div>
+                  <strong>Indirizzo:</strong><br />
+                  Via Alberto da Giussano 17<br />
+                  20145 Milano
+                </div>
+                
+                <div className="flex items-center">
+                  <Phone className="h-4 w-4 mr-2" />
+                  <span>02 4987653</span>
+                </div>
+                
+                <div className="flex items-center">
+                  <Phone className="h-4 w-4 mr-2" />
+                  <span>339 6005487</span>
+                </div>
+                
+                <div className="flex items-center">
+                  <Mail className="h-4 w-4 mr-2" />
+                  <span>dott.andolfi@feliceeugenioandolfi.it</span>
+                </div>
               </div>
             </div>
           </div>
