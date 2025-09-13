@@ -105,12 +105,6 @@ const Footer = () => {
               </a>
               <a href="/cookie" className="hover:text-accent transition-colors">Cookie Policy</a>
             </div>
-
-            {/* Regulatory Notice */}
-            <div className="text-xs text-primary-foreground/50 max-w-md text-center lg:text-right">
-              Consulenza finanziaria indipendente fee-only. 
-              Non distribuiamo prodotti di investimento.
-            </div>
           </div>
         </div>
       </div>
