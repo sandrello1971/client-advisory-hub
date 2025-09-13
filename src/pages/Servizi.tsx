@@ -229,7 +229,7 @@ const Servizi = () => {
                 <Card className="card-accent">
                   <CardContent className="p-6 text-center">
                     <h3 className="text-lg font-heading font-bold text-foreground mb-2">No Hidden Costs</h3>
-                    <p className="text-muted-foreground text-sm">Tutti i costi comunicati ex-ante per iscritto</p>
+                    <p className="text-muted-foreground text-sm">Tutti i costi comunicati ex-ante</p>
                   </CardContent>
                 </Card>
               </div>
