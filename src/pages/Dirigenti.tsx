@@ -21,8 +21,8 @@ const Dirigenti = () => {
     },
     {
       icon: Shield,
-      title: "Ottimizzazione Fiscale",
-      description: "Strutture legali per minimizzare l'impatto fiscale su stock option, bonus e altri strumenti di incentivazione."
+      title: "Ottimizzazione Fiscale e Gestione del Rischio Assicurativo",
+      description: "Strutture legali per minimizzare l'impatto fiscale su stock option, bonus e altri strumenti di incentivazione. Gestione del rischio intrinseco e armonizzazione fiscale attraverso strumenti assicurativi."
     },
     {
       icon: Users,
