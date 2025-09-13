@@ -10,6 +10,7 @@ import FamiglieHNWI from "./pages/FamiglieHNWI";
 import Servizi from "./pages/Servizi";
 import Risorse from "./pages/Risorse";
 import ChiSiamo from "./pages/ChiSiamo";
+import ConsulenzaFeeOnly from "./pages/ConsulenzaFeeOnly";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/servizi" element={<Servizi />} />
           <Route path="/risorse" element={<Risorse />} />
           <Route path="/chi-siamo" element={<ChiSiamo />} />
+          <Route path="/consulenza-fee-only" element={<ConsulenzaFeeOnly />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

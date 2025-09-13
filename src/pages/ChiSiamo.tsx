@@ -9,12 +9,7 @@ const ChiSiamo = () => {
     {
       icon: Shield,
       title: "Trasparenza Totale",
-      description: "Tutti i compensi e i costi sono comunicati chiaramente ex-ante. Nessuna sorpresa, mai."
-    },
-    {
-      icon: Target,
-      title: "Indipendenza",
-      description: "Non vendiamo prodotti propri. I nostri consigli sono sempre nell'interesse del cliente."
+      description: "Tutte le strategie sono condivise al fine di raggiungere gli obiettivi prefissati."
     },
     {
       icon: Heart,
@@ -32,7 +27,7 @@ const ChiSiamo = () => {
     {
       name: "Felice",
       role: "Founder & Senior Advisor",
-      description: "15+ anni di esperienza nella gestione patrimoniale per HNWI e famiglie. Ex-dirigente di primarie banche private.",
+      description: "25+ anni di esperienza nella gestione patrimoniale per HNWI e famiglie. Ex-dirigente di primarie banche private.",
       expertise: ["Wealth Management", "Family Office", "Tax Planning", "Estate Planning"]
     }
   ];
@@ -40,14 +35,13 @@ const ChiSiamo = () => {
   const certifications = [
     "CFP® Certified Financial Planner",
     "CFA Institute Member", 
-    "EFPA European Financial Advisor",
-    "Consulente Finanziario Autonomo"
+    "EFPA European Financial Advisor"
   ];
 
   const stats = [
     { number: "200+", label: "Famiglie affidate" },
     { number: "€500M+", label: "Patrimoni gestiti" },
-    { number: "15+", label: "Anni di esperienza" },
+    { number: "25+", label: "Anni di esperienza" },
     { number: "98%", label: "Clienti soddisfatti" }
   ];
 
@@ -122,13 +116,12 @@ const ChiSiamo = () => {
                 La nostra missione
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                Restituire fiducia nella consulenza patrimoniale attraverso trasparenza, competenza e 
-                indipendenza. Crediamo che ogni cliente meriti consigli onesti, compensi chiari e 
-                risultati misurabili.
+                Restituire fiducia nella consulenza patrimoniale attraverso trasparenza, competenza. 
+                Crediamo che ogni cliente meriti consigli onesti e risultati misurabili.
               </p>
               <blockquote className="text-2xl font-heading italic text-foreground border-l-4 border-accent pl-6">
                 "La gestione patrimoniale non dovrebbe essere un mistero. 
-                Ogni cliente ha il diritto di capire esattamente cosa fa il suo consulente e quanto costa."
+                Ogni cliente ha il diritto di capire esattamente cosa fa il suo consulente e perchè lo fa."
               </blockquote>
               <cite className="text-muted-foreground mt-4 block">- Felice, Founder</cite>
             </div>
@@ -262,8 +255,6 @@ const ChiSiamo = () => {
                     ❌ Come NON lavoriamo
                   </h3>
                   <ul className="space-y-3 text-muted-foreground">
-                    <li>Non vendiamo prodotti finanziari propri</li>
-                    <li>Non riceviamo commissioni nascoste</li>
                     <li>Non promettiamo rendimenti irrealistici</li>
                     <li>Non utilizziamo strategie speculative</li>
                     <li>Non deleghiamo a algoritmi o call center</li>
