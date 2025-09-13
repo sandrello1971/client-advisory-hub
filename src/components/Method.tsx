@@ -45,7 +45,7 @@ const Method = () => {
             Il nostro metodo: semplice, trasparente, efficace
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Un processo strutturado che mette la chiarezza i vostri obiettivi al centro con un focus chiaro e condiviso.
+            Un processo strutturato che mette i vostri obiettivi al centro con un focus chiaro e condiviso.
           </p>
         </div>
 

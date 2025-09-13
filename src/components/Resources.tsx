@@ -7,7 +7,7 @@ const Resources = () => {
       icon: <FileText className="h-8 w-8 text-accent" />,
       title: "Checklist RSU & Stock Option",
       subtitle: "Guida per dirigenti tech",
-      description: "Piano di vendita, ottimizzazione fiscale e gestione del rischio concentrazione per le vostre partecipazioni aziendale.",
+      description: "Piano strategico, ottimizzazione fiscale e gestione del rischio concentrazione per le vostre partecipazioni aziendale.",
       downloadCount: "2,400+",
       tag: "Per Dirigenti",
       tagColor: "bg-blue-100 text-blue-700"

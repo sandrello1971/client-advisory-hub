@@ -3,7 +3,7 @@ import { CheckCircle, Calendar, Download, ArrowRight } from "lucide-react";
 
 const Hero = () => {
   const proofPoints = [
-    "visione WorldWide",
+    "Visione WorldWide",
     "Architettura aperta e verificabile", 
     "Processo documentato e policy conflitti",
     "Riservatezza garantita"
