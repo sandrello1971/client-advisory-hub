@@ -65,7 +65,7 @@ const ChiSiamo = () => {
                 </h1>
                 
                 <p className="text-xl lg:text-2xl mb-8 text-primary-foreground/80 leading-relaxed">
-                  Siamo consulenti patrimoniali indipendenti specializzati in gestione patrimoniale 
+                  Siamo consulenti patrimoniali specializzati in gestione patrimoniale 
                   per dirigenti, imprenditori post-exit e famiglie HNWI.
                 </p>
                 
