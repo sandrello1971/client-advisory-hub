@@ -87,7 +87,7 @@ const Servizi = () => {
               
               <p className="text-xl lg:text-2xl mb-8 text-primary-foreground/80 leading-relaxed">
                 Soluzioni complete per la gestione, protezione e crescita del tuo patrimonio. 
-                Competenza, trasparenza e indipendenza in ogni servizio.
+                Competenza e trasparenza in ogni servizio.
               </p>
               
               <Button 
