@@ -1,49 +1,39 @@
 import { Button } from "@/components/ui/button";
-import { Linkedin, Mail, Phone, Shield, FileText, Calendar } from "lucide-react";
+import { Calendar, Phone, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary text-primary-foreground">
-      {/* Main Footer */}
+    <footer className="bg-gradient-primary text-primary-foreground">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12">
+        {/* Main Footer Content */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           
-          {/* Brand Column */}
-          <div className="lg:col-span-1">
-            <img 
-              src="/lovable-uploads/a6805bc3-edfd-4096-ac4f-5abc8eb27326.png" 
-              alt="Finanza & Futuro Logo" 
-              className="h-12 w-auto mb-4"
-            />
+          {/* Logo and Description */}
+          <div>
+            <div className="mb-6">
+              <img 
+                src="/lovable-uploads/2e907c99-d5a8-4581-9a3a-fb4421890d41.png" 
+                alt="WealthGuard Logo" 
+                className="h-12 w-auto"
+              />
+            </div>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-              Consulenza patrimoniale con regole chiare. Nessuna sorpresa.
+              Consulenza patrimoniale fee-only per dirigenti, imprenditori post-exit e famiglie HNWI. 
+              Trasparenza totale, competenza verificabile.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="hover:bg-primary-foreground/10">
-                <Linkedin className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="hover:bg-primary-foreground/10">
-                <Mail className="h-5 w-5" />
-              </Button>
+              {/* Social links could go here if needed */}
             </div>
           </div>
 
-          {/* Services */}
+          {/* Services & Target */}
           <div>
-            <h4 className="font-heading font-bold mb-4">Servizi</h4>
+            <h4 className="font-heading font-bold mb-4">Servizi & Per Chi</h4>
             <ul className="space-y-3 text-primary-foreground/80">
-              <li><a href="/advisory-post-exit" className="hover:text-accent transition-colors">Advisory Post-Exit</a></li>
-              <li><a href="/wealth-management" className="hover:text-accent transition-colors">Wealth Management Discreto</a></li>
-              <li><a href="/family-governance" className="hover:text-accent transition-colors">Family Governance</a></li>
-            </ul>
-          </div>
-
-          {/* Target Segments */}
-          <div>
-            <h4 className="font-heading font-bold mb-4">Per Chi</h4>
-            <ul className="space-y-3 text-primary-foreground/80">
+              <li><a href="/servizi" className="hover:text-accent transition-colors">Consulenza Patrimoniale</a></li>
+              <li><a href="/servizi" className="hover:text-accent transition-colors">Wealth Management</a></li>
               <li><a href="/dirigenti" className="hover:text-accent transition-colors">Dirigenti & Professionisti</a></li>
               <li><a href="/post-exit" className="hover:text-accent transition-colors">Imprenditori Post-Exit</a></li>
               <li><a href="/famiglie-hnwi" className="hover:text-accent transition-colors">Famiglie HNWI</a></li>
@@ -63,14 +53,16 @@ const Footer = () => {
 
             {/* Contact Information */}
             <div className="space-y-3">
-              <Button 
-                variant="hero" 
-                size="sm" 
-                className="w-full justify-start"
-              >
-                <Calendar className="h-4 w-4 mr-2" />
-                Prenota Call
-              </Button>
+              <a href="https://wa.me/393396005487" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  variant="hero" 
+                  size="sm" 
+                  className="w-full justify-start"
+                >
+                  <Calendar className="h-4 w-4 mr-2" />
+                  Prenota Call
+                </Button>
+              </a>
               
               <div className="space-y-2 text-sm text-primary-foreground/80">
                 <div>
@@ -107,18 +99,17 @@ const Footer = () => {
             <div className="text-sm text-primary-foreground/60">
               © {currentYear} Tutti i diritti riservati.
             </div>
-
-            {/* Compliance Links */}
-            <div className="flex flex-wrap gap-6 text-sm text-primary-foreground/60">
-              <a href="/privacy" className="hover:text-accent transition-colors flex items-center">
-                <Shield className="h-3 w-3 mr-1" />
+            
+            <div className="flex space-x-6 text-sm">
+              <a href="/privacy" className="text-primary-foreground/60 hover:text-accent transition-colors">
                 Privacy Policy
               </a>
-              <a href="/disclaimer" className="hover:text-accent transition-colors flex items-center">
-                <FileText className="h-3 w-3 mr-1" />
-                Disclaimer
+              <a href="/termini" className="text-primary-foreground/60 hover:text-accent transition-colors">
+                Termini di Servizio
               </a>
-              <a href="/cookie" className="hover:text-accent transition-colors">Cookie Policy</a>
+              <a href="/cookie" className="text-primary-foreground/60 hover:text-accent transition-colors">
+                Cookie Policy
+              </a>
             </div>
           </div>
         </div>
