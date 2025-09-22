@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <div className="mb-6">
               <img 
-                src="/lovable-uploads/2e907c99-d5a8-4581-9a3a-fb4421890d41.png" 
+                src="/lovable-uploads/a6805bc3-edfd-4096-ac4f-5abc8eb27326.png" 
                 alt="WealthGuard Logo" 
                 className="h-12 w-auto"
               />
