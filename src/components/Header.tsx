@@ -5,6 +5,13 @@ import { useState } from "react";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // Funzione per scrollare al footer
+  const scrollToFooter = () => {
+    document.querySelector('footer')?.scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  };
+
   return (
     <header className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,22 +47,28 @@ const Header = () => {
               </div>
             </div>
             <a href="/servizi" className="text-wealth hover:text-foreground transition-colors">Servizi</a>
-//          <a href="/risorse" className="text-wealth hover:text-foreground transition-colors">Risorse</a>
+            {/* RIMOSSA LA RIGA RISORSE */}
+            {/* <a href="/risorse" className="text-wealth hover:text-foreground transition-colors">Risorse</a> */}
             <a href="/chi-siamo" className="text-wealth hover:text-foreground transition-colors">Chi Siamo</a>
           </nav>
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="ghost" size="sm" className="btn-wealth">
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="btn-wealth"
+              onClick={scrollToFooter}
+            >
               <Phone className="h-4 w-4 mr-2" />
               Contatti
             </Button>
-<a href="https://wa.me/393396005487" target="_blank" rel="noopener noreferrer">
-  <Button variant="wealth" size="sm" className="btn-wealth">
-    <Calendar className="h-4 w-4 mr-2" />
-    Prenota Call
-  </Button>
-</a>
+            <a href="https://wa.me/393396005487" target="_blank" rel="noopener noreferrer">
+              <Button variant="wealth" size="sm" className="btn-wealth">
+                <Calendar className="h-4 w-4 mr-2" />
+                Prenota Call
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -88,17 +101,25 @@ const Header = () => {
                 </a>
               </div>
               <a href="/servizi" className="block px-3 py-2 text-base text-muted-foreground">Servizi</a>
-//            <a href="/risorse" className="block px-3 py-2 text-base text-muted-foreground">Risorse</a>
+              {/* RIMOSSA LA RIGA RISORSE MOBILE */}
+              {/* <a href="/risorse" className="block px-3 py-2 text-base text-muted-foreground">Risorse</a> */}
               <a href="/chi-siamo" className="block px-3 py-2 text-base text-muted-foreground">Chi Siamo</a>
               <div className="px-3 py-2 space-y-2">
-                <Button variant="ghost" size="sm" className="w-full justify-start">
+                <Button 
+                  variant="ghost" 
+                  size="sm" 
+                  className="w-full justify-start"
+                  onClick={scrollToFooter}
+                >
                   <Phone className="h-4 w-4 mr-2" />
                   Contatti
                 </Button>
-                <Button variant="wealth" size="sm" className="w-full justify-start">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  Prenota Call
-                </Button>
+                <a href="https://wa.me/393396005487" target="_blank" rel="noopener noreferrer">
+                  <Button variant="wealth" size="sm" className="w-full justify-start">
+                    <Calendar className="h-4 w-4 mr-2" />
+                    Prenota Call
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
