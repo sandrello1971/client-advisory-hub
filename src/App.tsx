@@ -26,7 +26,7 @@ const App = () => (
           <Route path="/post-exit" element={<PostExit />} />
           <Route path="/famiglie-hnwi" element={<FamiglieHNWI />} />
           <Route path="/servizi" element={<Servizi />} />
-          <Route path="/risorse" element={<Risorse />} />
+//          <Route path="/risorse" element={<Risorse />} />
           <Route path="/chi-siamo" element={<ChiSiamo />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
