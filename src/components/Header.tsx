@@ -40,7 +40,7 @@ const Header = () => {
               </div>
             </div>
             <a href="/servizi" className="text-wealth hover:text-foreground transition-colors">Servizi</a>
-            <a href="/risorse" className="text-wealth hover:text-foreground transition-colors">Risorse</a>
+//          <a href="/risorse" className="text-wealth hover:text-foreground transition-colors">Risorse</a>
             <a href="/chi-siamo" className="text-wealth hover:text-foreground transition-colors">Chi Siamo</a>
           </nav>
 
@@ -50,10 +50,12 @@ const Header = () => {
               <Phone className="h-4 w-4 mr-2" />
               Contatti
             </Button>
-            <Button variant="wealth" size="sm" className="btn-wealth">
-              <Calendar className="h-4 w-4 mr-2" />
-              Prenota Call
-            </Button>
+<a href="https://wa.me/393396005487" target="_blank" rel="noopener noreferrer">
+  <Button variant="wealth" size="sm" className="btn-wealth">
+    <Calendar className="h-4 w-4 mr-2" />
+    Prenota Call
+  </Button>
+</a>
           </div>
 
           {/* Mobile menu button */}
@@ -86,7 +88,7 @@ const Header = () => {
                 </a>
               </div>
               <a href="/servizi" className="block px-3 py-2 text-base text-muted-foreground">Servizi</a>
-              <a href="/risorse" className="block px-3 py-2 text-base text-muted-foreground">Risorse</a>
+//            <a href="/risorse" className="block px-3 py-2 text-base text-muted-foreground">Risorse</a>
               <a href="/chi-siamo" className="block px-3 py-2 text-base text-muted-foreground">Chi Siamo</a>
               <div className="px-3 py-2 space-y-2">
                 <Button variant="ghost" size="sm" className="w-full justify-start">
